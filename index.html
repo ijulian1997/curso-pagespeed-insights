@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Title Here</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body><i class="fas fa-bars burger-btn"></i>
+    <header class="header">
+      <div class="container">
+        <figure class="header__logo"><img src="images/logo.png" alt="Logo" height="50"></figure>
+        <nav class="header__menu">
+          <ol>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#eventos">Experiencia</a></li>
+            <li><a href="#trabajemos">Trabajemos juntos</a></li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <h1>Hola! Soy <strong>Julian Vidal</strong><br>
+          Desarrolador <strong>Front-end</strong><br>
+          y amante del <strong>Jazz</strong>
+        </h1><img src="images/hero.jpg" alt="Imagen principal del sitio">
+      </div>
+    </section>
+    <section class="portfolio" id="portafolio">
+      <div class="container">
+        <div class="divider"></div>
+        <h2>Portafolio (Proyectos destacados)</h2>
+          <article class="project">
+            <div>
+              <h3 class="project__title">Platzi Video</h3>
+              <h6 class="project__course">React Native / React</h6>
+              <p class="project__date"><small><strong>Fecha: </strong>01/07/2018</small></p>
+              <p class="project__url"><small><strong>Puedes verlo en: </strong>www.platzi.com/native</small></p>
+              <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed rem commodi, exercitationem enim nostrum cum maxime laboriosam</p>
+            </div>
+            <div>
+              <figure class="project__image"><img src="images/react-native.png" width="500" alt="Mixin: Proyecto del curso de react native"></figure>
+            </div>
+          </article>
+          <article class="project">
+            <div>
+              <h3 class="project__title">Platzi Video 2</h3>
+              <h6 class="project__course">React Native / React</h6>
+              <p class="project__date"><small><strong>Fecha: </strong>01/07/2018</small></p>
+              <p class="project__url"><small><strong>Puedes verlo en: </strong>www.platzi.com/native</small></p>
+              <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed rem commodi, exercitationem enim nostrum cum maxime laboriosam</p>
+            </div>
+            <div>
+              <figure class="project__image"><img src="images/react-native.png" width="500" alt="Mixin: Proyecto del curso de react native"></figure>
+            </div>
+          </article>
+      </div>
+    </section>
+    <section class="events" id="eventos">
+      <div class="container">
+        <div class="divider"></div>
+        <h2>Más sobre mi experiencia</h2>
+        <div class="events__items">
+            <article class="event">
+              <figure><img src="images/platzi-conf.jpg" alt="Es una foto de la platzi conf"></figure>
+              <div class="event__detail">
+                <h3 class="event__detail__title">Event 1</h3>
+                <p class="event__detail__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a class="event__detail__btn" href="https://www.youtube.com/" target="_blank">Ver Plática</a>
+              </div>
+            </article>
+            <article class="event">
+              <figure><img src="images/platzi-conf.jpg" alt="Es una foto de la platzi conf"></figure>
+              <div class="event__detail">
+                <h3 class="event__detail__title">Event 2</h3>
+                <p class="event__detail__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a class="event__detail__btn" href="https://www.youtube.com/" target="_blank">Ver Plática</a>
+              </div>
+            </article>
+            <article class="event">
+              <figure><img src="images/platzi-conf.jpg" alt="Es una foto de la platzi conf"></figure>
+              <div class="event__detail">
+                <h3 class="event__detail__title">Event 3</h3>
+                <p class="event__detail__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a class="event__detail__btn" href="https://www.youtube.com/" target="_blank">Ver Plática</a>
+              </div>
+            </article>
+            <article class="event">
+              <figure><img src="images/platzi-conf.jpg" alt="Es una foto de la platzi conf"></figure>
+              <div class="event__detail">
+                <h3 class="event__detail__title">Event 4</h3>
+                <p class="event__detail__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a class="event__detail__btn" href="https://www.youtube.com/" target="_blank">Ver Plática</a>
+              </div>
+            </article>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="trabajemos">
+      <div class="container">
+        <div class="divider-white"></div>
+        <form class="form-email" action="/suscripcion/">
+          <h2>¿Creamos algo juntos?</h2>
+          <label for="email">Déjame tu email</label>
+          <input type="text" placeholder="Déjame tu email" id="email">
+          <button>Enviar</button>
+        </form>
+        <div class="social"><a class="social__link twitter" href="#"></a><a class="social__link facebook" href="#"></a><a class="social__link github" href="#"></a><a class="social__link instagram" href="#"></a></div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p>Curso de desarrollo web online <img src="images/platzi.png" alt="Logo Platzi" height="35px"></p>
+        <p>Design with ❤️ by <a href="#" target="_blank">TheSpianArtist</a></p>
+      </div>
+    </footer>
+    <script src="/js/hamburger-menu.js"> </script>
+  </body>
+</html>
